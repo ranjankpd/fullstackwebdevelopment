@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            height: 1000px;
+            grid-template-columns:repeat(3, 1fr) ;
+            grid-template-rows: repeat(3,250px);
+           
+            
+        }
+        .box{
+            /* height: 100px;
+            width: 100px; */
+        }
+        .box1{
+            background-color: #ff0000;
+            grid-row-start:1 ;
+            grid-row-end:3 ;
+        }
+        .box2{
+            background-color: #129c3e;
+        }
+        .box3{
+            background-color: rgb(91, 40, 202);
+        }
+        .box4{
+            background-color: rgb(234, 36, 175);
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .box5{
+            background-color: rgb(230, 218, 51);
+        }
+        .box6{
+            background-color: rgb(37, 178, 196);
+        }
+        .box7{
+            background-color: purple;
+        }
+        .box8{
+            background-color: rgb(15, 6, 119);
+        }
+        .box9{
+            background-color: magenta;
+        }
+        .b{
+            display: grid;
+            height:170px;
+           overflow: auto;
+        
+        }
+        .b1{
+            background-color: rgb(45, 205, 128);
+            
+        }
+        .b2{
+            background-color: rgb(61, 20, 196);
+           
+        }
+        .b3{
+            background-color: rgb(74, 81, 12);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Grid Album -->
+    <div class="container">
+        <div class="box box1">
+            <div class="box b b1"  > <img src="https://images.pexels.com/photos/15240894/pexels-photo-15240894.jpeg?auto=compress&cs=tinysrgb&w=320&lazy=load" alt=""></div>
+            <div class="box b b2"><img src="https://images.pexels.com/photos/12659472/pexels-photo-12659472.jpeg?auto=compress&cs=tinysrgb&w=320&lazy=load" alt=""></div>
+            <div class="box b b3" ><img src="https://images.pexels.com/photos/10810991/pexels-photo-10810991.jpeg?auto=compress&cs=tinysrgb&w=320&lazy=load" alt="" ></div>
+        </div>
+        <div class="box box2"><img src="https://images.pexels.com/photos/15202186/pexels-photo-15202186.jpeg?auto=compress&cs=tinysrgb&w=250&lazy=load" alt=""></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+    </div>
+</body>
+</html>

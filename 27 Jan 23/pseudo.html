@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        .hover:hover{
+            background-color: black;
+            color: aqua;
+        }
+        input:focus{
+            color: red;
+            background-color: black;
+            font-size: large;
+        }
+        a:hover{
+            color: pink;
+
+        }
+         /* a:active{
+            color: red;
+        }
+        a:visited{
+            color: blueviolet; 
+        } */
+        a:first-child{
+            background-color: rgb(133, 77, 230);
+           
+        }
+        a:nth-child(even){
+            background-color: red;
+        }
+        p::first-line{
+            color: purple;
+        }
+        p::after{
+           content: "ranjan";
+           color: brown;
+
+        }
+        p::before{
+            content: "Ranjan code";
+            color: chartreuse;
+        }
+        p::selection{
+            background-color: rgb(232, 186, 19);
+            color: rgb(220, 29, 137);
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    /* using hover */
+    <p class="hover">
+        this is a example how hover works ,when you bring the mouse pointer hover will work having background color and other styles we sat
+    </p>
+    /* using focus */
+    <input type="text" name="" id="">
+    <hr>
+    <nav>
+        <a href="https://www.google.com/" >Google site</a>
+        <a href="https://www.google.com/" >Google site</a> <br>
+        <a href="https://www.google.com/" >Google site</a>
+        <a href="https://www.google.com/" >Google site</a><br>
+        <a href="https://www.google.com/" >Google site</a>
+        <a href="https://www.google.com/" >Google site</a>
+    </nav>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id facere odit sunt unde sit perferendis. Natus suscipit repudiandae, beatae sint eius excepturi consectetur vel minima neque nulla laboriosam eveniet officia quo quasi aspernatur architecto fugit nostrum molestiae maxime quos aliquam necessitatibus! Aliquam, iusto blanditiis saepe omnis laboriosam magni a.
+    </p>
+   
+   
+</body>
+</html>

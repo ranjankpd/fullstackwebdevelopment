@@ -1,0 +1,47 @@
+body{
+    background-color:purple;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: 'Welcome to Ranjanz coding';
+}
+
+@media (max-width:400px) {
+    body{
+        background-color: green;
+    }
+    div::after{
+        content: 'very small'
+    }
+    
+}
+
+@media(400px <= width <=768px) {
+                body{
+                    background-color: yellow;
+                }
+                div::after{
+                    content: 'mid size';
+                }
+}
+
+@media(min-width : 760px) and (msx-width:900px) {
+   
+    body{
+        background-color: rgb(39, 28, 195) 
+    }
+    
+}
+
+/* Media Query */
+@media(min-width : 900px){
+    /* if viewport is atleast 900px then apply this style */
+    body{
+        background-color: aqua;
+    }
+    
+}
+

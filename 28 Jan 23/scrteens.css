@@ -1,0 +1,50 @@
+/* for Phone */
+
+@media (max-width: 600px){
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'This is mobile compatiable';
+    }
+}
+
+/* Potrait tablets and big phones */
+@media (min-width:600px){
+    body{
+        background-color: purple;
+    }
+    div::after{
+        content: 'This is tablet compatiable';
+    }
+}
+
+@media (min-width:768px){
+    body{
+        background-color:blue;
+    }
+    div::after{
+        content: 'tablets';
+    }
+}
+@media(min-width:992px){
+    body{
+        background-color: yellow;
+    }
+    div::after{
+        content: 'laptops';
+    }
+}
+@media(min-width:1200px){
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content: 'for largerscreens';
+    }
+}
+
+div{
+    text-align: center;
+    font-size: x-large;
+}

@@ -1,0 +1,30 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element Selector */
+h1{
+    color: rgb(226, 125, 43);
+}
+p{
+    color: red;
+}
+/* class selector */
+.prr{
+    color: rgb(132, 19, 237);
+}
+.hello{
+    font-size: 27px;
+}
+/* ID selector */
+#id1{
+    color: whitesmoke;
+    background-blend-mode: color-burn;
+    background-color: rgb(8, 106, 106);
+}
+/* selector list */
+.class1, .class2, .class3{
+    color:rgb(132, 19, 237) ;
+    background-position: 0ex;
+}
