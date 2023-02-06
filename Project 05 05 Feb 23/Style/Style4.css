@@ -1,0 +1,96 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: #000;
+    height: 30px;
+    
+    
+   
+    
+}
+img{
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 50px;
+}
+.list{
+    flex-grow: 1;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    margin-left: 20px;
+    font-family: "Poppins",sans-serif;
+    
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.first-button{
+    padding: 6px 25px;
+    background-color: #9f0ca9;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.hero{
+    background-image: url('../Assets/bg.png');
+    background-size: cover;
+    height: 160vh;
+    background-attachment:scroll;
+    text-align: center;
+
+   
+}
+.heading{
+    
+    font-size: 90px;
+    text-align: center;
+    font-weight: 800px;
+    color: #fff;
+    font-family: "Poppins";
+    padding-top: 230px;
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.last-button{
+    text-align: center;
+    margin-top: 50px;
+   padding: 10px 30px;
+   border-radius: 10px;
+   border: none;
+   font-size: 15px;
+   font-weight: 700;
+   background-color: #9f0ca9;
+   color: #fff;
+   cursor:pointer;
+}
+
+
