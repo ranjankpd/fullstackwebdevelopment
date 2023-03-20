@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    background-color: gray;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    box-shadow: 0 0 5px 5px purple;
+    background-color: green;
+    font-size: 25px;
+    font-weight: 900;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
